@@ -169,8 +169,14 @@ section .header{
     width:600px;
     border: solid 2px #1e40af;
     border-radius: 20px;
-    box-shadow: 0 0 40px #1e40af;
+    box-shadow: 0 0 30px #1e40af;
     margin:auto;
+    transition: width 1s, box-shadow 1s;
+
+}
+.poster:hover {
+    width:700px;
+    box-shadow: 0 0 80px #1e40af;
 
 }
 .projects {
