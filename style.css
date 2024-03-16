@@ -184,6 +184,11 @@ section .header{
     justify-content: center;
 
 }
+.refrence {
+    display: flex;
+    margin:auto;
+    padding:80px 0;
+}
 
 .sub-header{
     max-width: 600px;
